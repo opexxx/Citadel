@@ -28,7 +28,7 @@ def menu():
     print(Fore.CYAN + " [4]" + Fore.WHITE + " Paste site tools")
     print(Fore.CYAN + " [5]" + Fore.WHITE + " Dark web tools")
     print()
-    print(Fore.YELLOW + " New tools available in the Citadel: POCKINT, InstaLoader, CardPwn, Onioff")
+    print(Fore.YELLOW + " New tools available in the Reddit Fetch, Instagram Crawler, ODIN")
     print()
     print(Fore.RED + " [x]" + Fore.WHITE + " Exit")
     print()
@@ -44,6 +44,7 @@ def menu():
         Fore.CYAN + " [4]" + Fore.WHITE + " FinalRecon - an OSINT tool for all in one web reconnaissance",
         Fore.CYAN + " [5]" + Fore.WHITE + " SpiderFoot - automate OSINT from hundreds of sources",
         Fore.CYAN + " [6]" + Fore.WHITE + " POCKINT - a portable OSINT Swiss Army Knife for DFIR professionals",
+        Fore.CYAN + " [7]" + Fore.WHITE + " ODIN - automated network asset, email, and social media profile discovery and cataloging",
         Fore.CYAN + " [<]" + Fore.WHITE + " Main menu"
         ]
         print(*tools, sep='\n')

@@ -148,6 +148,29 @@ def recon():
         elif view_or_download == "<":
             menu.menu()
 
+    elif toolSelect == "7":
+        print(Fore.RED + " ODIN - automated network asset, email, and social media profile discovery and cataloging")
+        print()
+        options = [
+        Fore.CYAN + " [1]" + Fore.WHITE + " View the tool",
+        Fore.CYAN + " [2]" + Fore.WHITE + " Download the tool",
+        Fore.CYAN + " [<]" + Fore.WHITE + " Main menu"
+        ]
+        print(*options,sep='\n')
+        print()
+        time.sleep(0.5)
+        view_or_download = input(Fore.YELLOW + " Select: " + Fore.WHITE)
+        print()
+        if view_or_download == "1":
+            webbrowser.open('https://github.com/chrismaddalena/ODIN')
+        elif view_or_download == "2":
+            print(Fore.CYAN + " [+] " + Fore.WHITE + "Downloading POCKINT")
+            time.sleep(0.5)
+            print()
+            subprocess.call(['git', 'clone', 'https://github.com/chrismaddalena/ODIN.git'])
+        elif view_or_download == "<":
+            menu.menu()
+
     elif toolSelect == "<":
         menu.menu()
     recon()
