@@ -149,7 +149,7 @@ def recon():
             menu.menu()
 
     elif toolSelect == "7":
-        print(Fore.RED + " ODIN - automated network asset, email, and social media profile discovery and cataloging")
+        print(Fore.RED + " ODIN - network asset, email, and social media discovery and cataloging")
         print()
         options = [
         Fore.CYAN + " [1]" + Fore.WHITE + " View the tool",
