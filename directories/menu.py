@@ -44,7 +44,7 @@ def menu():
         Fore.CYAN + " [4]" + Fore.WHITE + " FinalRecon - an OSINT tool for all in one web reconnaissance",
         Fore.CYAN + " [5]" + Fore.WHITE + " SpiderFoot - automate OSINT from hundreds of sources",
         Fore.CYAN + " [6]" + Fore.WHITE + " POCKINT - a portable OSINT Swiss Army Knife for DFIR professionals",
-        Fore.CYAN + " [7]" + Fore.WHITE + " ODIN - automated network asset, email, and social media profile discovery and cataloging",
+        Fore.CYAN + " [7]" + Fore.WHITE + " ODIN - network asset, email, and social media discovery and cataloging",
         Fore.CYAN + " [<]" + Fore.WHITE + " Main menu"
         ]
         print(*tools, sep='\n')
