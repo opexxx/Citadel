@@ -73,6 +73,7 @@ def socialMenu():
                 tools = [
                 Fore.CYAN + " [1]" + Fore.WHITE + " InstaLooter - Instagram scraper for photos and videos",
                 Fore.CYAN + " [2]" + Fore.WHITE + " InstaLoader - Download media, captions, and other metadata from Instagram",
+                Fore.CYAN + " [3]" + Fore.WHITE + " Instagram Crawler - Crawl photos, likes, and comments by username/hashtags",
                 Fore.CYAN + " [<]" + Fore.WHITE + " Main menu",
                 ]
                 print(*tools, sep='\n')
@@ -84,9 +85,12 @@ def socialMenu():
                         webbrowser.open("https://github.com/althonos/InstaLooter")
                     elif instagramSelect == "2":
                         webbrowser.open("https://github.com/instaloader/instaloader")
+                    elif instagramSelect == "3":
+                        webbrowser.open(("https://github.com/hehpollon/Instagram-crawler"))
                     elif instagramSelect == "<":
                         socialMenu()
                 instagramSelect()
+
             # SnapChat
             elif toolSelect == "4":
                 print(Fore.YELLOW + " SnapChat tools")
@@ -112,6 +116,7 @@ def socialMenu():
                     print()
                     tools = [
                     Fore.CYAN + " [1]" + Fore.WHITE + " Universal Reddit Scraper - Scrape Reddit posts using Reddit API",
+                    Fore.CYAN + " [2]" + Fore.WHITE + " Reddit Fetch - Scrape Reddit comments and pictures",
                     Fore.CYAN + " [<]" + Fore.WHITE + " Main menu"
                     ]
                     print(*tools, sep='\n')
@@ -121,6 +126,8 @@ def socialMenu():
                         print()
                         if redditSelect == "1":
                             webbrowser.open("https://github.com/JosephLai241/Universal-Reddit-Scraper")
+                        elif redditSelect == "2":
+                            webbrowser.open("https://github.com/nobodyme/reddit-fetch")
                         elif redditSelect == "<":
                             socialMenu()
                     redditSelect()
