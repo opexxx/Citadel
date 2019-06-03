@@ -47,6 +47,7 @@ def menu():
         Fore.CYAN + " [<]" + Fore.WHITE + " Main menu"
         ]
         print(*tools, sep='\n')
+        print()
         recon()
 
     elif directory == "2":
@@ -60,6 +61,7 @@ def menu():
         Fore.CYAN + " [<]" + Fore.WHITE + " Main menu"
         ]
         print(*tools, sep='\n')
+        print()
         people()
 
     elif directory == "3":
@@ -75,6 +77,7 @@ def menu():
         Fore.CYAN + " [<]" + Fore.WHITE + " Main menu",
         ]
         print(*tools,sep='\n')
+        print()
         paste()
 
     elif directory == "5":
