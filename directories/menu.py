@@ -3,6 +3,7 @@ from colorama import init
 from colorama import Fore
 import webbrowser
 import time
+import subprocess
 from .recon import *
 from .people import *
 from .social import *
@@ -28,6 +29,8 @@ def menu():
     print(Fore.CYAN + " [4]" + Fore.WHITE + " Paste site tools")
     print(Fore.CYAN + " [5]" + Fore.WHITE + " Dark web tools")
     print()
+    print(Fore.RED + " [+]" + Fore.WHITE + " Update The Citadel")
+    print()
     print(Fore.YELLOW + " New tools available in the Reddit Fetch, Instagram Crawler, ODIN")
     print()
     print(Fore.RED + " [x]" + Fore.WHITE + " Exit")
@@ -47,6 +50,7 @@ def menu():
         Fore.CYAN + " [7]" + Fore.WHITE + " ODIN - network asset, email, and social media discovery and cataloging",
         Fore.CYAN + " [<]" + Fore.WHITE + " Main menu"
         ]
+
         print(*tools, sep='\n')
         print()
         recon()
@@ -95,4 +99,9 @@ def menu():
 
     elif directory == "x":
         exit()
+
+    elif directory == "+":
+        subprocess.call(["git", "pull"])
+        time.sleep(0.5)
+        print(Fore.YELLOW + "The Citadel is Updated")
 menu()
