@@ -31,7 +31,7 @@ def menu():
     print()
     print(Fore.RED + " [+]" + Fore.WHITE + " Update The Citadel")
     print()
-    print(Fore.YELLOW + " New tools available in the Reddit Fetch, Instagram Crawler, ODIN")
+    print(Fore.YELLOW + " New tools available in the Citadel: h8mail, buster, PaGoDo")
     print()
     print(Fore.RED + " [x]" + Fore.WHITE + " Exit")
     print()
@@ -48,7 +48,10 @@ def menu():
         Fore.CYAN + " [5]" + Fore.WHITE + " SpiderFoot - automate OSINT from hundreds of sources",
         Fore.CYAN + " [6]" + Fore.WHITE + " POCKINT - a portable OSINT Swiss Army Knife for DFIR professionals",
         Fore.CYAN + " [7]" + Fore.WHITE + " ODIN - network asset, email, and social media discovery and cataloging",
-        Fore.CYAN + " [<]" + Fore.WHITE + " Main menu"
+        Fore.CYAN + " [8]" + Fore.WHITE + " h8mail - find passwords through breach and recon services",
+        Fore.CYAN + " [9]" + Fore.WHITE + " buster - dig deeper into emails and find linked accounts",
+        Fore.CYAN + " [10]" + Fore.WHITE + " PaGoDo - automate Google Dorks",
+        Fore.RED + " [<]" + Fore.WHITE + " Main menu"
         ]
 
         print(*tools, sep='\n')
@@ -63,7 +66,7 @@ def menu():
         Fore.CYAN + " [2]" + Fore.WHITE + " LittleBrother - information gathering tool for EU persons",
         Fore.CYAN + " [3]" + Fore.WHITE + " SocialScan - check email addresses across all social platforms",
         Fore.CYAN + " [4]" + Fore.WHITE + " Sherlock - search username availability across all social platforms",
-        Fore.CYAN + " [<]" + Fore.WHITE + " Main menu"
+        Fore.RED + " [<]" + Fore.WHITE + " Main menu"
         ]
         print(*tools, sep='\n')
         print()
@@ -79,7 +82,7 @@ def menu():
         tools = [
         Fore.CYAN + " [1]" + Fore.WHITE + " Scavenger - a crawler bot for credential leaks",
         Fore.CYAN + " [2]" + Fore.WHITE + " CardPwn - OSINT Tool to find breached credit card information",
-        Fore.CYAN + " [<]" + Fore.WHITE + " Main menu",
+        Fore.RED + " [<]" + Fore.WHITE + " Main menu",
         ]
         print(*tools,sep='\n')
         print()
@@ -91,7 +94,7 @@ def menu():
         tools = [
         Fore.CYAN + " [1]" + Fore.WHITE + " TorBot - dark web OSINT tool",
         Fore.CYAN + " [2]" + Fore.WHITE + " Onioff - an onion url inspector for inspecting deep web links.",
-        Fore.CYAN + " [<]" + Fore.WHITE + " Main menu"
+        Fore.RED + " [<]" + Fore.WHITE + " Main menu"
         ]
         print(*tools, sep='\n')
         print()

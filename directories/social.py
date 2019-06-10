@@ -17,7 +17,7 @@ def socialMenu():
     Fore.CYAN + " [5]" + Fore.WHITE + " Reddit",
     Fore.CYAN + " [6]" + Fore.WHITE + " LinkedIn",
     Fore.CYAN + " [7]" + Fore.WHITE + " YouTube",
-    Fore.CYAN + " [<]" + Fore.WHITE + " Main menu",
+    Fore.RED + " [<]" + Fore.WHITE + " Main menu",
     ]
     print(*platforms, sep='\n')
     print()

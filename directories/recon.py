@@ -171,6 +171,75 @@ def recon():
         elif view_or_download == "<":
             menu.menu()
 
+    elif toolSelect == "8":
+        print(Fore.RED + " h8mail - find passwords through breach and recon services")
+        print()
+        options = [
+        Fore.CYAN + " [1]" + Fore.WHITE + " View the tool",
+        Fore.CYAN + " [2]" + Fore.WHITE + " Download the tool",
+        Fore.CYAN + " [<]" + Fore.WHITE + " Main menu"
+        ]
+        print(*options,sep='\n')
+        print()
+        time.sleep(0.5)
+        view_or_download = input(Fore.YELLOW + " Select: " + Fore.WHITE)
+        print()
+        if view_or_download == "1":
+            webbrowser.open('https://github.com/khast3x/h8mail')
+        elif view_or_download == "2":
+            print(Fore.CYAN + " [+] " + Fore.WHITE + "Downloading h8mail")
+            time.sleep(0.5)
+            print()
+            subprocess.call(['git', 'clone', 'https://github.com/khast3x/h8mail.git'])
+        elif view_or_download == "<":
+            menu.menu()
+
+    elif toolSelect == "9":
+        print(Fore.RED + " buster - dig deeper into emails and find linked accounts")
+        print()
+        options = [
+        Fore.CYAN + " [1]" + Fore.WHITE + " View the tool",
+        Fore.CYAN + " [2]" + Fore.WHITE + " Download the tool",
+        Fore.CYAN + " [<]" + Fore.WHITE + " Main menu"
+        ]
+        print(*options,sep='\n')
+        print()
+        time.sleep(0.5)
+        view_or_download = input(Fore.YELLOW + " Select: " + Fore.WHITE)
+        print()
+        if view_or_download == "1":
+            webbrowser.open('https://github.com/sham00n/buster')
+        elif view_or_download == "2":
+            print(Fore.CYAN + " [+] " + Fore.WHITE + "Downloading buster")
+            time.sleep(0.5)
+            print()
+            subprocess.call(['git', 'clone', 'https://github.com/sham00n/buster.git'])
+        elif view_or_download == "<":
+            menu.menu()
+
+    elif toolSelect == "10":
+        print(Fore.RED + " PaGoDo - automate Google Dorks")
+        print()
+        options = [
+        Fore.CYAN + " [1]" + Fore.WHITE + " View the tool",
+        Fore.CYAN + " [2]" + Fore.WHITE + " Download the tool",
+        Fore.CYAN + " [<]" + Fore.WHITE + " Main menu"
+        ]
+        print(*options,sep='\n')
+        print()
+        time.sleep(0.5)
+        view_or_download = input(Fore.YELLOW + " Select: " + Fore.WHITE)
+        print()
+        if view_or_download == "1":
+            webbrowser.open('https://github.com/opsdisk/pagodo')
+        elif view_or_download == "2":
+            print(Fore.CYAN + " [+] " + Fore.WHITE + "Downloading PaGoDo")
+            time.sleep(0.5)
+            print()
+            subprocess.call(['git', 'clone', 'https://github.com/opsdisk/pagodo.git'])
+        elif view_or_download == "<":
+            menu.menu()
+
     elif toolSelect == "<":
         menu.menu()
     recon()
