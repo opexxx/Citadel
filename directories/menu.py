@@ -93,7 +93,10 @@ def menu():
         print()
         tools = [
         Fore.CYAN + " [1]" + Fore.WHITE + " TorBot - dark web OSINT tool",
-        Fore.CYAN + " [2]" + Fore.WHITE + " Onioff - an onion url inspector for inspecting deep web links.",
+        Fore.CYAN + " [2]" + Fore.WHITE + " Onioff - an onion url inspector for inspecting deep web links",
+        Fore.CYAN + " [3]" + Fore.WHITE + " Fresh Onions - an open source tor spider/onion crawler",
+        Fore.CYAN + " [4]" + Fore.WHITE + " Dark Scrape - an OSINT tool to find media links in tor sites",
+        Fore.CYAN + " [5]" + Fore.WHITE + " Darklight - collects onion domains and crawls webpages",
         Fore.RED + " [<]" + Fore.WHITE + " Main menu"
         ]
         print(*tools, sep='\n')
