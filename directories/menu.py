@@ -31,7 +31,7 @@ def menu():
     print()
     print(Fore.RED + " [+]" + Fore.WHITE + " Update The Citadel")
     print()
-    print(Fore.YELLOW + " New tools available in the Citadel: h8mail, buster, PaGoDo")
+    print(Fore.YELLOW + " New tools available in the Citadel: Fresh Onions, Dark Scrape, Darklight")
     print()
     print(Fore.RED + " [x]" + Fore.WHITE + " Exit")
     print()
